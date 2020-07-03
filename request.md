@@ -1,6 +1,6 @@
 ## axios 封装http request示例
 
-####请求示例1 文件上传
+##### 请求示例1 文件上传
 ```js
 /* 
  * param -> query param参数
@@ -20,7 +20,7 @@ export default {
     transformToURLSearchParams: (data, config) => qs.stringify(data, config),
 }
 ```
-####请求示例2 实例封装
+##### 请求示例2 实例封装
 使用闭包缓存不同baseUrl请求体实例
 ```js
 import axios from 'axios';
